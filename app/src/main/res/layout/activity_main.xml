@@ -34,5 +34,33 @@
         android:onClick="Add"
         android:text="加2"
         android:textSize="30sp" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Add"
+        android:text="歸零"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Add"
+        android:text="樂透"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txvvb"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="震動"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon" />
 
 </LinearLayout>
